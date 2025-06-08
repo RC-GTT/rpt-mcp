@@ -4,6 +4,7 @@ import WhatIsMCP from "@/components/WhatIsMCP";
 import Features from "@/components/Features";
 import Benefits from "@/components/Benefits";
 import UseCases from "@/components/UseCases";
+import Testimonials from "@/components/Testimonials";
 import TechnicalOverview from "@/components/TechnicalOverview";
 import CallToAction from "@/components/CallToAction";
 import Footer from "@/components/Footer";
@@ -16,6 +17,7 @@ const Index = () => {
       <Features />
       <Benefits />
       <UseCases />
+      <Testimonials />
       <TechnicalOverview />
       <CallToAction />
       <Footer />

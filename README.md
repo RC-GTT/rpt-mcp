@@ -1,73 +1,65 @@
-# Welcome to your Lovable project
+RPT-MCP
+Model Context Protocol (MCP) Server by Risk Pro Technology
 
-## Project info
+Welcome to the official repository for RPT-MCP, a project developed by Risk Pro Technology to power AI systems with context-aware capabilities.
 
-**URL**: https://lovable.dev/projects/457f18f6-6b86-4810-be23-e0a13b3adc22
+🚀 Overview
+This project is built around the concept of an MCP (Model Context Protocol) server, which acts as a universal interface between AI models and the external world. It allows AI to connect with tools, resources, and structured prompts through a standardized protocol—unlocking smarter, context-driven automation and decision-making.
 
-## How can I edit this code?
+🧠 What is an MCP Server?
+An MCP (Model Context Protocol) server enables AI models to:
 
-There are several ways of editing your application.
+Access dynamic tools and APIs
 
-**Use Lovable**
+Retrieve and process contextual information in real-time
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/457f18f6-6b86-4810-be23-e0a13b3adc22) and start prompting.
+Work across applications, systems, and data sources
 
-Changes made via Lovable will be committed automatically to this repo.
+Perform advanced tasks with better situational awareness
 
-**Use your preferred IDE**
+In short, the MCP server is a context bridge—empowering AI to do more than just generate responses. It enables AI to act intelligently within specific workflows, environments, and tasks.
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+🔧 Built by Risk Pro Technology
+This implementation is maintained and developed by Risk Pro Technology, a leader in AI-enabled safety and risk solutions. The MCP server is designed with modularity and real-world integration in mind, supporting the development of AI-first systems that serve industries like:
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+Healthcare
 
-Follow these steps:
+Security & Safety
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+Finance
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+Risk Management
 
-# Step 3: Install the necessary dependencies.
-npm i
+📁 Features
+Modular plugin architecture for tool integration
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+Secure API access and prompt injection
 
-**Edit a file directly in GitHub**
+Custom routing based on user, session, or workflow
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+Easy deployment via Docker
 
-**Use GitHub Codespaces**
+Scalable and production-ready
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+🧩 Use Cases
+AI assistants that retrieve live data and make decisions
 
-## What technologies are used for this project?
+Risk analysis bots with access to policy documents and databases
 
-This project is built with:
+Healthcare copilots integrating with EMR and safety reporting tools
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+Tactical finance AI conducting stock and signal analysis
 
-## How can I deploy this project?
+📦 Installation
+bash
+Copy
+Edit
+git clone https://github.com/RC-GTT/rpt-mcp.git  
+cd rpt-mcp  
+docker compose up --build
+📚 Documentation
+Detailed documentation and plugin specs coming soon at:
+👉 https://www.riskproconsulting.com/risk-pro-technology
 
-Simply open [Lovable](https://lovable.dev/projects/457f18f6-6b86-4810-be23-e0a13b3adc22) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+🤝 Contributing
+We welcome pull requests and discussions! If you have ideas or feedback, open an issue or email us at riskprotechnology@gmail.com
